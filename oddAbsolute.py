@@ -11,11 +11,9 @@ def calculateAbsolute():
         print('Nope')
         
     if in_num < 21 :
-        in_num = abs(21 - in_num)
-        print(in_num)
+        print(str(abs(in_num-21)))
     else :
-        in_num = abs(2*(in_num - 21))
-        print(in_num)
+        print(str(abs(2 * (in_num-21))))
     # end assignment
 
 ## if you want to test locally before you try to sync
