@@ -14,8 +14,7 @@ def calculateAbsolute():
         in_num = abs(21 - in_num)
         print(in_num)
     else :
-        in_num = abs(in_num - 21)
-        in_num = in_num * 2
+        in_num = abs(2*(in_num - 21))
         print(in_num)
     # end assignment
 
