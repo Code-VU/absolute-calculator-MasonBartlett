@@ -5,11 +5,7 @@ def calculateAbsolute():
     
     # This first line is provided for you
     in_num  = input("Enter a number: ")
-    try :
-        in_num = int(in_num)
-    except :
-        print('Error, please enter a number')
-        
+     
     if in_num < 21 :
         in_num = str(abs(in_num-21))
         print(in_num)
