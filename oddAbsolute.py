@@ -8,7 +8,7 @@ def calculateAbsolute():
     try :
         in_num = int(in_num)
     except :
-        print('Nope')
+        print('Error, please enter a number')
         
     if in_num < 21 :
         print(str(abs(in_num-21)))
